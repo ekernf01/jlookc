@@ -3,6 +3,9 @@ uuid = "0b4037e1-98ef-41ff-b520-3d6e636692e9"
 authors = ["ekernf01 <eric.kern13@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
 [compat]
 julia = "1"
 
