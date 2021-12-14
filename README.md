@@ -1,6 +1,6 @@
 ## Leave-one-out knockoffs for efficient structure learning in Julia
 
-The framework of *model-X knockoffs* and the corresponding R package `knockoff` together provide FDR control for subset selection in sparse regression models with multivariate Gaussian covariates (1). Model-X knockoffs have also been applied for structure learning via graphical lasso (2) by leaving out each variable in turn. To facilitate progress in applications, especially in causal modeling of transcription, our packages provides efficient free software for leave-one-out knockoff generation. The main code-base for this project is in R -- please see the `rlookc` package for proper detail. Currently, this version only supports loading and assembly of knockoffs that were saved to disk using the R software. 
+The framework of *model-X knockoffs* and the corresponding R package `knockoff` together provide FDR control for subset selection in sparse regression models with multivariate Gaussian covariates (1). Model-X knockoffs have also been applied for structure learning via graphical lasso (2) by leaving out each variable in turn. To facilitate progress in applications, especially in causal modeling of transcription, our packages provides efficient free software for leave-one-out knockoff generation. The main code-base for this project is in R -- please see the [`rlookc` package](https://github.com/ekernf01/rlookc) for proper detail. Currently, this version only supports loading and assembly of knockoffs that were saved to disk using the R software. 
 
 #### References
 
